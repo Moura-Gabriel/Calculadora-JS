@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: url(/img/brown-wooden-flooring.jpg);
+    color: white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px;
+}
+.botao:hover{
+    background-color: grey;
+    border-color: slategrey;
+    cursor: pointer;
+}
+.botaoIgual:hover{
+    background-color: grey;
+    border-color: slategrey;
+    cursor: pointer;
+}
+
+.botaoZero:hover{
+    background-color: grey;
+    border-color: slategrey;
+    cursor: pointer;
+}
+
+#resultado{
+    background-color: aliceblue;
+    width: 213px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+.botaoIgual{
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    margin: 3px;
+
+}
+.botaoZero{
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    margin: 3px;
+}
